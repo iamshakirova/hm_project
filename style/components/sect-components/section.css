@@ -1,0 +1,110 @@
+.women-inner>h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.item h1{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.item textarea{
+    width: 50%;
+    height: 40px;
+    outline: none;
+    resize: none;
+}
+.bt{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height:50px;
+    background-color: #efefef;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.bt>button{
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 200;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.bt i{
+    padding: 15px;
+    box-sizing: border-box;
+}
+.bt input{
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+    padding-left: 10px;
+    box-sizing: border-box;
+    outline: none;
+}
+.inpt-img button{
+    width: 30%;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.descr-area textarea{
+    width: 50%;
+    height: 150px;
+    padding: 10px 0 0 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.sect-btn>button{
+    position: absolute;
+    right: 20%;
+    padding: 10px 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.myacc{
+    position: absolute;
+    right: 10%;
+    margin-top: 30px;
+}
+.myacc>a{
+    color: black;
+    text-decoration: none;
+}
+.myacc>a:hover{
+    text-decoration: underline;
+    transition: .3s;
+}
+.input-file {
+    position: relative;
+}
+.button-color {
+    background-color: #efefef;
+    color: #000;
+}
+.input-file input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    left: 0;
+}
+@media(max-width:990px){
+    .item textarea{
+        width: 60%;    
+    }
+    .bt{
+        width: 60%;
+    }
+}
+@media(max-width:660px){
+    .item textarea{
+        width: 90%;    
+    }
+    .bt{
+        width: 90%;
+    }
+
+}
+
+

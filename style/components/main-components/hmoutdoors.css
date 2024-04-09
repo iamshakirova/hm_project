@@ -1,0 +1,60 @@
+.outdoors-inner{
+    text-align: center;
+    line-height: 1.2;
+}
+.outdoors-txt h1{
+    font-size: 45px;
+    color: white;
+    font-weight: 600;
+    margin-top: -150px;
+}
+.outdoors-txt p{
+    color: white;
+    font-size: 15px;
+}
+.outdoors-inner{
+    width: 70%;
+}
+.outdoors-inner img{
+    max-width: 100%;
+}
+.button-out button{
+    color: black;
+    padding: 10px 8px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+.button-out>button:hover{
+    background-color: rgba(175, 163, 163, 0.932);
+    transition: .3s;
+}
+@media(max-width:600px){
+    .outdoors-txt{
+        margin-top: -150px;
+    }
+    .outdoors-txt>h1{
+        font-size: 30px;
+    }
+    .button-out>button{
+        padding: 5px 4px;
+    }
+}
+@media(max-width:370px){
+    .outdoors-txt{
+        margin-top: -100px;
+    }
+    .outdoors-txt>h1{
+        font-size: 15px;
+    }
+    .button-out>button{
+        font-size: 10px;
+        padding: 2px 1px;
+    }
+    .outdoors-inner{
+        margin-bottom: 30px;
+    }
+}

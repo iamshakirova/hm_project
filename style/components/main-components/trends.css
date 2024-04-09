@@ -1,0 +1,99 @@
+.trending-inner h1{
+    color: #222222;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.trending-inner{
+    width: 70%;
+    position: relative;
+}
+.trends{
+    width: 100%;
+}
+.recent-trends{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+} 
+.trend-sections{
+    width: 100%;
+}
+.trend-sections img{
+    border-radius: 50%;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.trend-sections a{
+    text-decoration: none;
+    color: black;
+}
+.trend-sections p{
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    font-size: 15px; 
+}
+.trend-sections span{
+    color: #707070;
+    font-size: 15px;
+    font-weight: 600;
+}
+.trend-arrow>i{
+    align-items: center;
+}
+.slick-next::before{
+    width: 20px;
+    height: 20px;
+    content: ">";
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slick-prev::before{
+    width: 20px;
+    height: 20px;
+    content: "<";
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.recent-trends i{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+}
+.recent-trends>.fa-arrow-right{
+    right: -30px;
+}
+.recent-trends>.fa-arrow-left{
+    left: -30px;
+}
+
+.list-item{
+    color: black;
+    text-decoration: none;
+}
+.page-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: #faf9f8;
+}
+
+@media(max-width:990px){
+    .trend-sections{
+        width: 100%;
+    }
+    .trend-sections img{
+        width: 60%;
+    }
+    .trend-sections p{
+        text-align: left;
+    }
+}

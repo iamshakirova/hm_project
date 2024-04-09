@@ -1,0 +1,224 @@
+.module{
+    width: 90%;
+    margin: 0 auto;
+}
+.section-padding{
+    padding: 60px 0 0;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+}
+.member-set{
+    width: 30%;
+}
+.member-set .settings{
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.member-set .white{
+    background-color: white;
+}
+.member-set .settings a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 200;
+}
+.member-set .settings:hover a{
+    text-decoration: underline;
+    color: red;
+    transition: .3s;
+}
+.member-set .settings i{
+    margin: 0 10px;
+}
+#icon{
+    position: absolute;
+    right: 0;
+}
+
+.myacc{
+    position: absolute;
+    right: 10%;
+    margin-top: 30px;
+}
+.myacc>a{
+    color: black;
+    text-decoration: none;
+}
+.myacc>a:hover{
+    text-decoration: underline;
+    transition: .3s;
+}
+.user-profile--ava{
+    width: 30%;
+    border-radius: 100%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+}
+
+.user-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.user-profile h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0;
+    text-align: center;
+}
+.user-profile h2,
+.user-profile p  {
+    line-height: 1.4;
+    margin: 10px 0;
+    text-align: center;
+}
+.user-profile a {
+    margin: 10px auto;
+    color: black;
+    text-decoration: none;
+    background-color: #faf9f8;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.user-profile a:hover{
+    background-color: #d6d3d0;
+    transition: .3s;
+}
+.user-profile .button-danger{
+    margin-bottom: 30px;
+}
+.blog-inner h1{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px 0;
+}
+.blog{
+    width: 70%;
+    background-color: white;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog h1{
+    font-size: 30px;
+    margin: 20px;
+}
+.blog-item{
+    margin-bottom: 40px;
+}
+.blogs-item{
+    width: 30%;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+.blogs-item>img{
+    width: 100%;
+}
+.blogs{
+    width: 50%;
+    background-color: white;
+    padding: 20px 20px 0;
+}
+
+.blogs-info a{
+    display: block;
+    margin-top: 20px;
+}
+.blog-item>img{
+    width: 40%;
+    height: 50%;
+}
+.blog-header h3 {
+    margin-top: 20px;
+    font-size: 28px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.blog-desc {
+    margin: 10px 0;
+}
+.blog-info {
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown>li>a{
+    text-decoration: none;
+    color: black;
+}
+.dropdown{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    line-height: 1.2;
+}
+.dropdown>li:hover{
+    text-decoration: underline;
+    transition: .3s;
+}
+.pages{
+    width: 70%;
+    margin-top: 20px;
+}
+.pages a{
+    color: black;
+    align-items: center;
+    margin-right: 20px;
+}
+@media(max-width:990px){
+    .details{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .member-set{
+        width: 60%;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:500px){
+    .blogs-item{
+        width: 70%;
+    }
+    .blogs-item>img{
+        width: 100%;
+    }
+    .blog-info{
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:700px){
+    .blog{
+        flex-wrap: wrap;
+    }
+    .blogs-item{
+        width: 55%;
+    }
+    .blogs-item>img{
+        width: 100%;
+    }
+}
+@media(max-width:370px){
+    .blogs-item{
+        width: 90%;
+    }
+    .blogs-item>img{
+        width: 100%;
+    }
+}
+
+
+

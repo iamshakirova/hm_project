@@ -1,0 +1,84 @@
+.women-inner>h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.item h1{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.item textarea{
+    width: 50%;
+    height: 40px;
+    outline: none;
+    resize: none;
+}
+.bt{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height:50px;
+    background-color: #efefef;
+    cursor: pointer;
+}
+.bt>button{
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 200;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.bt i{
+    padding: 15px;
+    box-sizing: border-box;
+}
+.inpt-img>input{
+    width: 50%;
+    color: black;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 200;
+    margin: 20px 0;
+}
+.descr-area textarea{
+    width: 50%;
+    height: 150px;
+}
+.sect-btn>button{
+    position: absolute;
+    right: 20%;
+    padding: 10px 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.myacc{
+    position: absolute;
+    right: 10%;
+    margin-top: 30px;
+}
+.myacc>a{
+    color: black;
+    text-decoration: none;
+}
+.myacc>a:hover{
+    text-decoration: underline;
+    transition: .3s;
+}
+@media(max-width:990px){
+    .item textarea{
+        width: 60%;    
+    }
+    .bt{
+        width: 60%;
+    }
+}
+@media(max-width:660px){
+    .item textarea{
+        width: 90%;    
+    }
+    .bt{
+        width: 90%;
+    }
+
+}

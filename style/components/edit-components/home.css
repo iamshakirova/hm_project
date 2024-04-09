@@ -1,0 +1,25 @@
+.home{
+    padding: 150px 0 0;
+    cursor: pointer;
+}
+.navigation-home{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+.navigation-home>a{
+    margin-right: 25px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: 600px;
+}
+.navigation-home>a:hover{
+    text-decoration: underline;
+    transition: .3s;
+}
+@media(max-width:990px){
+    .navigation-home {
+        display: none;
+    }
+}

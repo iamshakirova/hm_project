@@ -1,0 +1,44 @@
+header{
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #faf9f8;
+    z-index: 1;
+}
+.head-menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+.head-menu a:hover{
+    text-decoration: underline;
+    transition: .3s;
+}
+.head-menu i{
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
+.logo img{
+    display: flex;
+    align-items: center;
+    width: 60px;
+}
+@media(max-width:990px){
+    .head-menu{
+        display: none;
+    }
+    .logo i{
+        display: flex;
+    }
+    .logo img{
+        display: none;
+    }
+}

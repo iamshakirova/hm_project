@@ -1,0 +1,40 @@
+.arrival-img-inner{
+    width: 70%;
+    align-items: center;
+}
+.arrival-img-inner h1{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.arrivals-section{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.arrivals-img>h1{
+    color: black;
+    font-size: 15px;
+}
+.arrivals-img img{
+    margin-bottom: 10px;
+    width: 98%;
+}
+.arrivals-img>h1:hover{
+    text-decoration: underline;
+    transition: .3s;
+}
+.arrivals-section>i{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+}
+.arrivals-section>.fa-arrow-right{
+    right: -30px;
+}
+.arrivals-section>.fa-arrow-left{
+    left: -30px;
+}

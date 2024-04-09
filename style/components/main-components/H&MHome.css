@@ -1,0 +1,65 @@
+.hm-inner{
+    text-align: center;
+    line-height: 1.2;
+}
+.hm-txt{
+    margin-top: -150px;
+}
+.hm-txt h1{
+    font-size: 45px;
+    color: white;
+    font-weight: 600;
+}
+.hm-txt p{
+    color: white;
+    font-size: 15px;
+}
+.hm-inner{
+    width: 70%;
+}
+.hm-inner img{
+    max-width: 100%;
+}
+.hm-txt button{
+    color: black;
+    padding: 10px 8px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+.hm-txt>button:hover{
+    background-color: rgba(175, 163, 163, 0.932);
+    transition: .3s;
+}
+@media(max-width:600px){
+    .hm-txt{
+        margin-top: -150px;
+    }
+    .hm-inner{
+        margin-top: 50px;
+    }
+    .hm-txt>h1{
+        font-size: 30px;
+    }
+    .hm-txt>button{
+        padding: 5px 4px;
+    }
+}
+@media(max-width:370px){
+    .hm-txt{
+        margin-top: -100px;
+    }
+    .hm-txt>h1{
+        font-size: 15px;
+    }
+    .hm-txt>button{
+        font-size: 10px;
+        padding: 2px 1px;
+    }
+    .hm-inner{
+        margin-bottom: 30px;
+    }
+}
